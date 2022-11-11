@@ -1,0 +1,25 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+}
+
+html{
+    font-size:62.5%;
+}
+
+
+:root{
+    --bgc-color:#28273E;
+    --main-color:#FF7228;
+    --shadow:#1C1B2D;
+}
+
+
+body{
+    background-color: var(--bgc-color);
+    font-size:1.6rem;
+    padding: 1rem;
+}
