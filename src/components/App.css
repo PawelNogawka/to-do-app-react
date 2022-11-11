@@ -1,0 +1,155 @@
+.app-top {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 6rem;
+  width: 100%;
+  padding: 2rem;
+  margin-bottom: 5rem;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  max-width: 70rem;
+}
+
+.form-input-box {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 2rem;
+}
+
+.main-heading {
+  text-transform: uppercase;
+  font-size: min(10vw, 6rem);
+  font-weight: 400;
+}
+
+.form-column {
+  display: flex;
+  gap: 2rem;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  margin-bottom: 3rem;
+}
+
+.form-row {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 2rem;
+}
+
+label {
+  font-size: 2rem;
+}
+
+.add-label {
+  font-size: 2.5rem;
+}
+
+.input {
+  padding: 1.2rem 0.4rem;
+  background: 0;
+  border: 0;
+  background-color: var(--shadow);
+  border-radius: 0.3rem;
+}
+
+.checkbox-input {
+  width: 2rem;
+  height: 2rem;
+  cursor: pointer;
+  border: 0;
+}
+
+.text-input {
+  width: 100%;
+}
+
+.date-input {
+  min-width: 20rem;
+}
+
+.add-btn {
+  padding: 1rem 3rem;
+  width: 100%;
+  margin-top: 3rem;
+  border: 0;
+  border-radius: 0.3rem;
+  font-size: 1.7rem;
+  text-transform: uppercase;
+  background-color: var(--main-color);
+  cursor: pointer;
+}
+
+.task-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 5rem;
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.task-list {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+  flex: 1 1 30rem;
+  padding: 2rem;
+  background-color: var(--shadow);
+  border-radius: 0.3rem;
+}
+
+.task-heading {
+  font-weight: 400;
+  margin-bottom: 2rem;
+}
+
+.task {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 0.8rem;
+  padding-left: 0.5rem;
+}
+
+.task-name {
+  font-size: 1.7rem;
+}
+
+.task-date {
+  color: rgba(255, 255, 255, 0.87);
+}
+
+.task-confirmation {
+  color: rgba(255, 255, 255, 0.87);
+}
+
+.task-btn {
+  padding: 0.2rem 0.8rem;
+  background: 0;
+  border: 0;
+  text-decoration: underline;
+  color: var(--main-color);
+  text-transform: capitalize;
+  cursor: pointer;
+}
+
+.task-alert {
+  font-size: 1.7rem;
+}
+
+@media (min-width: 768px) {
+  .app-top {
+    margin-bottom: 10rem;
+  }
+}
